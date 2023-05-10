@@ -1,4 +1,10 @@
 /*Estilos da página index.html*/
+/* importação de fonte externa */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+body{
+    background-color: #E1D89F;
+}
     .center{
         text-align: center;
     }
@@ -7,15 +13,30 @@
         text-align: justify;
     }
 
+    h1, h2{
+        font-family: 'Raleway';
+    }
+
+    form, .end{
+        font-family: 'Open Sans';
+    }
+
     .container{
         display: flex;
         flex-flow: row;
         justify-content: center;
         align-items: center;
+        border-radius: 10px;
+        background-color: #cd8b76;
+    }
+    .texto{
+        color: #27474E;
+        font-family: 'Open Sans';
     }
     #menu li{
         display: inline;
         padding: 30px;
+        font-family: 'Raleway';
     }
 
     #menu li a{
@@ -37,8 +58,8 @@
     }
 
     .wh{
-        width: 500px;
-        height: 500px;
+        width: 350px;
+        height: 350px;
     }
 
     .tm-social{
